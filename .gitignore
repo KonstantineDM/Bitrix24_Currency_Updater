@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# User dirs
+exrates/
+exchange_venv/
+
+# User files
+after.jpg
+before.jpg
