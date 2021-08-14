@@ -131,7 +131,3 @@ dmypy.json
 # User dirs
 exrates/
 exchange_venv/
-
-# User files
-after.jpg
-before.jpg
