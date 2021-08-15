@@ -49,7 +49,7 @@ def get_rates(date_req, rates_date):
     return all_valutes
 
 
-def do_update(all_valutes, rates_date):
+def do_update(all_valutes):
     """
     Выполняет обновление данных курсов валют на портале Битрикс24;
     url вебхука надо создать на портале заранее и поместить его в 
@@ -95,7 +95,7 @@ def main():
     if not os.path.exists("./exrates"):
         os.mkdir("./exrates")
     all_valutes = get_rates(date_req, rates_date)
-    do_update(all_valutes, rates_date)
+    do_update(all_valutes)
 
 if __name__ == "__main__":
     main()
